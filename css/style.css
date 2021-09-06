@@ -554,12 +554,9 @@ section.experience p {
     width: 100%;
     left: 0;
 }
-experience-points p {
-    font-size: 10px;
-}
 section.myskills {
     /*background:#ffc548;*/
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-left: 20px solid white;
     border-right: 20px solid white;
     border-bottom: 20px solid white;
@@ -573,7 +570,7 @@ section.myskills h1 {
     margin-top: 0px;
 }
 
-section.myskills p {
+.downloadCV p {
     text-align: center;
     color: #838383;
     margin: 0 auto;
@@ -586,6 +583,61 @@ section.myskills p {
     left: 0;
 }
 
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media (max-width: 1380px) {
+    body,
+    html {
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.software-skill-inline > p {
+    color: #020303;
+    font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.skill-img {
+    width: 55px;
+    height: 55px;
+    aspect-ratio: auto 50/55;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-align: center;
+}
 .downloadCV {
     min-height: 172px;
     padding-bottom: 20px;
