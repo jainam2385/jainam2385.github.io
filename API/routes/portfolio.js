@@ -2,6 +2,12 @@ const TelegramBot = require("node-telegram-bot-api");
 const TelegramBotError = require("../errors/telegram_bot_error");
 const portfolioRouter = require("express").Router();
 
+portfolioRouter.get("/test", (req, res, next) => {
+    res.status(200).json({
+        success: true,
+    });
+});
+
 portfolioRouter.post("/", async (req, res, next) => {
     try {
         const { name, contact, message } = req.body;
