@@ -542,22 +542,21 @@ section.experience h1 {
     color: #3a3a3a;
     font-family: "ProximaNovaT";
     font-size: 55px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 section.experience p {
     text-align: center;
     color: #838383;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: -30px;
-    font-size: 25px;
+    margin: 0;
     position: absolute;
     z-index: 1000;
     width: 100%;
     left: 0;
 }
-
+experience-points p {
+    font-size: 10px;
+}
 section.myskills {
     /*background:#ffc548;*/
     background: #fff;
@@ -732,6 +731,25 @@ hr {
     border-style: none;
     border: 0px solid !important;
     border-color: #c0c0c0;
+}
+
+.education-roundedimg {
+    object-fit: cover;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 6rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+    border-radius: 50%;
+    align-items: center;
+}
+
+@media (max-width: 1380px) {
+    education-roundedimg {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+    }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
