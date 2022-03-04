@@ -537,14 +537,12 @@ section.experience {
     border-bottom: 20px solid white;
     border-top: 20px solid white;
 }
-
 section.experience h1 {
     color: #3a3a3a;
     font-family: "ProximaNovaT";
     font-size: 55px;
     margin-top: 0;
 }
-
 section.experience p {
     text-align: center;
     color: #838383;
@@ -562,7 +560,6 @@ section.myskills {
     border-bottom: 20px solid white;
     border-top: 20px solid white;
 }
-
 section.myskills h1 {
     color: #3a3a3a;
     font-family: "ProximaNovaT";
@@ -570,11 +567,57 @@ section.myskills h1 {
     margin-top: 0px;
 }
 
+section.resume {
+    /*background:#ffc548;*/
+    background: rgb(255, 255, 255);
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 20px solid white;
+    border-top: 20px solid white;
+}
+
+section.resume h1 {
+    color: #3a3a3a;
+    font-family: "ProximaNovaT";
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+section.achievements {
+    background: #fff;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 20px solid white;
+    border-top: 20px solid white;
+}
+
+section.achievements h1 {
+    color: #3a3a3a;
+    font-family: "ProximaNovaT";
+    font-size: 55px;
+    margin-top: 0px;
+}
+section.achievements h2 {
+    color: #838383;
+    font-family: "ProximaNovaT";
+    font-size: 20px;
+    margin-top: 0px;
+}
+section.achievements p {
+    text-align: center;
+    color: #838383;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+}
+
 .downloadCV p {
     text-align: center;
     color: #838383;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: -30px;
     font-size: 25px;
     position: absolute;
